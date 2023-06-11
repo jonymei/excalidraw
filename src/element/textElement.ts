@@ -955,6 +955,7 @@ export const isMeasureTextSupported = () => {
  * where the values come from.
  */
 const DEFAULT_LINE_HEIGHT = {
+  [FONT_FAMILY.FZJL]: 1.25 as ExcalidrawTextElement["lineHeight"],
   // ~1.25 is the average for Virgil in WebKit and Blink.
   // Gecko (FF) uses ~1.28.
   [FONT_FAMILY.Virgil]: 1.25 as ExcalidrawTextElement["lineHeight"],
